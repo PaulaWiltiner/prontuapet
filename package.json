@@ -1,0 +1,39 @@
+{
+  "name": "prontuapet",
+  "version": "1.0.0",
+  "description": "An application for storing pet health data",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulaWiltiner/prontuapet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulaWiltiner/prontuapet/issues"
+  },
+  "homepage": "https://github.com/PaulaWiltiner/prontuapet#readme",
+  "dependencies": {
+    "@prisma/client": "^4.9.0",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.15",
+    "@types/joi": "^17.2.3",
+    "@types/nodemon": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "prisma": "^4.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
