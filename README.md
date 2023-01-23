@@ -9,9 +9,9 @@ An application for storing pet health data
 
 **Body**
 
-```json
+```jsx
 {
-	petName: "Laroy",
+  petName: "Laroy",
   RGA: "3.345.789",
   photo: "https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218450.jpg",
   speciesId: 2,
@@ -29,10 +29,10 @@ An application for storing pet health data
 
 **Response**
     
-  ```json
+  ```jsx
     [
     	{
-    		id: 1,
+    	  id: 1,
     	  petName: "Laroy",
     	  RGA: "3.345.789",
     	  photo: "https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218450.jpg",
@@ -43,7 +43,7 @@ An application for storing pet health data
     	  coat: "black"
     	},
     	{
-    		id: 2,
+    	  id: 2,
     	  petName: "Sushi",
     	  RGA: "4.885.780",
     	  photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxo4-X0M8JhCDhGhH8FqOPoQgCNKtQw6yCA&usqp=CAU",
@@ -62,7 +62,7 @@ An application for storing pet health data
     
   ```jsx
     {
-    		id: 2,
+    	  id: 2,
     	  petName: "Sushi",
     	  RGA: "4.885.780",
     	  photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxo4-X0M8JhCDhGhH8FqOPoQgCNKtQw6yCA&usqp=CAU",
